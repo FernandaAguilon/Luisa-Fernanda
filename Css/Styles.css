@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+#header{
+    margin:center;
+    width: 200px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffff ;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 1520px;
+    background: #ffffff;
+    
+    
+    
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu >li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 34px 20px 37px 0px;
+    color: #01633B;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #5eb18f;
+    transition: all .3s;
+}
+
+.submenu{
+    
+    position: absolute;
+     background: #ffffff;
+     width: 170%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s; 
+    box-shadow: 5px 5px 10px rgb(237, 237, 237);
+    border-top: 3px solid #01633B;
+    
+}
+.submenu li a{
+    display: block;
+    padding: 10px;
+    color: #01633B ;
+    text-decoration: none;   
+   
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 2;
+} 
+
+hr{   
+    position: absolute;
+    top: 88px;
+} 
+
+.fa-solid{
+    float: right;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+div#general {
+   margin: auto;
+   margin-top: 103px;
+    width: 1000px;
+    height: 700px;
+    background-color: #ffffff;
+    
+}
+
+div#chava {
+    float: right;
+    margin-top: 45px;
+    width: 380px;
+    height: 600px;
+    background-color: #ffffff;
+   object-fit: cover;
+
+}
+
+div#logo{
+    float: left;
+    margin-left: 195px;
+    width: 140px;
+    height: 180px;
+    background-color: #ffffff;
+
+}
+
+div#letras{
+    margin: 60px;
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+
+}
+.letra1 {
+    font-size: 30px;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-decoration: #3333;
+    text-align: center;
+}
+
+.letras2{
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-decoration: #666 ;
+    opacity: 70%;
+    text-align: center;
+    line-height: 160%;
+}
+
+.letra3{
+    font-size: 26px;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-decoration: #3333;
+    text-align: center;
+}
+.boton{
+    
+    justify-content: center;
+    background-color: #ffffff;
+    width: 300px;
+    height: 100 px;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.foto{
+    background-image: url(../Assets/Image/tour-1.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    height: auto;
+    opacity: 80%;
+
+}
+
+.titulo1{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 78px;
+    font-size: 38px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.texto{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 27px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+div#formulario{ 
+    margin: auto;
+    margin-top: 103px;
+     width: 1100px;
+     height: 450px;
+     background-color: #ffffff;
+     
+}
+.borde{
+    border-radius: 0px;
+    background-color: #eee;
+}
+
+.cuadros{
+    margin: auto;
+    margin-top: 103px;
+     width: 1450px;
+     height: 960px;
+     background-color: rgb(254, 254, 254);
+     text-align: center;
+     
+}
+.textoT{
+    color: #0d0808;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.textopeque{
+    color: #0d0808;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sombra{
+    box-shadow: 15px 15px 15px #bebebe;
+}
+
+
+.borde2{
+    padding: 90px;
+}
+
+.revista{
+    margin: auto;
+    margin-top: 0px;
+     width: auto;
+     height: 360px;
+     background-color: #01633B;
+     text-align: center;
+     
+}
+
+.textoRevistaT{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 27px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.revista2{
+    margin: auto;
+    margin-top: 53px;
+     width: 768px;
+     height: 80px;
+     background-color: #01633B;
+     text-align: center;
+     color: #ffffff;
+     
+}
+
+.NOTICIA{
+    color: #000000;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.borde3{
+    padding: 50px;
+    
+}
+
+
+.p1{
+    padding: 50px;
+    margin-top: 150px;
+    left: 0;
+    width: 600px;
+    height: 210px;
+    background: #034732;
+    color: #ffff;
+}
+.p2{
+    padding: 50px;
+    margin-top: 150px;
+    width: 300px;
+    height: 210px;
+    background: #034732;
+    color: #ffff;
+}
+.p3{
+    padding: 50px;
+    margin-top: 150px;
+    width: 625px;
+    height: 210px;
+    background: #034732;
+    color: #ffff;
+}
+
+.link{
+  
+    text-align: center ;
+    font-size: 12px;
+}
+.link2{
+  
+    text-align: center ;
+}
+
+.centrar{
+    margin-left: 250px;
+
+}
+.centrar2{
+    margin-left: 550px;
+}
+
+.letra4{
+    text-align: center;
+    margin-top: 150px;
+    padding: 50px ;
+
+}
+.color {
+    background-color: #01633B;
+}
+.centrar3{
+    margin-left: 420px;
+}
+
+
+.p11{
+    padding: 50px;
+    margin-top: 0px;
+    left: 0;
+    width: 600px;
+    height: 210px;
+    background: #034732;
+    color: #ffff;
+}
+.p22{
+    padding: 50px;
+    margin-top: 0px;
+    width: 300px;
+    height: 210px;
+    background: #034732;
+    color: #ffff;
+}
+.p33{
+    padding: 50px;
+    margin-top: 0px;
+    width: 625px;
+    height: 210px;
+    background: #034732;
+    color: #ffff;
+}
